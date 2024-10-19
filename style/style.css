@@ -71,6 +71,7 @@ body.preloader-active {
   position: fixed;
   width: 100%;
   overflow: hidden;
+  
 }
 
 .preloader {
@@ -89,6 +90,7 @@ body.preloader-active {
 .preloader img {
   width: 100%;
   opacity: 0;
+  padding: 0px 50px;
 }
 
 .preloader .loading-text {
@@ -222,9 +224,6 @@ html {
   color: #3c6c52;
 }
 
-.faq-margin {
-  margin-top: 0.8rem;
-}
 
 .accordion-button {
   font-size: 1.2rem;
